@@ -1,0 +1,18 @@
+<div class='container'>
+  <%= form_with model: @tasks do |task| %>
+    <div class='card-form-page-new'>
+      <%= task.text_field :details, placeholder: "Title" %>
+    </div>
+    <div class='card-form-page-new'>
+      <%= task.text_field :details, placeholder: "Details"  %>
+    </div>
+    <div class='card-form-page-new'>
+    <div class='card-completed-page-new'>
+      <%= task.label :completed %>
+      <%= task.check_box :completed%>
+    </div>
+    </div class="card-buttons-page-new">
+      <div class="card-buttons-new"> <%= task.submit %> </div>
+      <button class="card-buttons-page-new"> <%= link_to "ComeBack Bitch", tasks_path %> </button>
+    <% end %>
+  </div>

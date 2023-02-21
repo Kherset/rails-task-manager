@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background-color: lavender;
+ }
+
+ .container {
+  background-color: lavenderblush;
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 15px;
+ }
+
+ h1 {
+  text-align: center;
+  color: purple;
+  text-decoration: underline;
+  padding-top: 10px;
+ }
+
+ button {
+  margin-left: 40%;
+  width: 20%;
+  margin-bottom: 10px;
+ }
+
+ .card-form-page-new {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin-left: 35%;
+  padding-top: 10px;
+
+ }
+
+ .card-buttons-page-new {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
